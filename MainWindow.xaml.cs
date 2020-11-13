@@ -40,15 +40,16 @@ namespace SistemaFacturacion
             rFacturacion.Show();
         }
 
-        private void cEmpleadosMenuItem_Click(object sender, RoutedEventArgs e)
+        private void cProductosMenuItem_Click(object sender, RoutedEventArgs e)
         {
-
+            cProductos cProductos = new cProductos();
+            cProductos.Show();
         }
 
         private void InformacionMenuItem_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show($"Creado por:\t\t{CreadoPorLabel.Content}\n\nVersión:\t\t\t{VersionLabel.Content}\n\nCreación:\t\t{CreacionLabel.Content}\n\nUltima Modificación:\t{ModificacionLabel.Content}\n\nPara más información:\tjose_burgos3@ucne.edu.do", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
         }
-              
+               
     }
 }

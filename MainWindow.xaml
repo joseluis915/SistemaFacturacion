@@ -20,11 +20,7 @@
                 </MenuItem>
                 <!--—————————————————————————————————————————[ Consultas ]—————————————————————————————————————————-->
                 <MenuItem Header="Consultas">
-                    <MenuItem x:Name="cEmpleadosMenuItem" Click="cEmpleadosMenuItem_Click" Header="Consultar Empleado" Foreground="Black">
-                        <MenuItem.Icon>
-                            <Image Source="/Resources/Fecha.png"/>
-                        </MenuItem.Icon>
-                    </MenuItem>
+                    <MenuItem x:Name="cProductosMenuItem" Click="cProductosMenuItem_Click" Header="Consultar Producto" Foreground="Black"/>
                 </MenuItem>
                 <!--———————————————————————————————————————[ Informacion ]———————————————————————————————————————-->
                 <MenuItem x:Name="InformacionMenuItem" Click="InformacionMenuItem_Click" Header="Informacion"/>
